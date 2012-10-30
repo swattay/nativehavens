@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<TITLE>#TITLE#</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<STYLE TYPE="text/css">
+<!--
+
+.section1 { background-color: #SEC1#; }
+.section2 { background-color: #SEC2#; }
+.section3 { background-color: #SEC3#; }
+.section4 { background-color: #SEC4#; }
+.section5 { background-color: #SEC5#; }
+.section6 { background-color: #SEC6#; }
+
+.titlesys {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22pt;
+	color: #TCOLOR#;
+}
+
+.menusys {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #LCOLOR#;
+}
+
+.contentsys {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #TXTCOLOR#;
+}
+
+-->
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="#BCOLOR#" TEXT="#TXTCOLOR#" LINK="#LCOLOR#" VLINK="#LCOLOR#" ALINK="#LCOLOR#" LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0">
+
+<DIV ID="ImageLayer" STYLE="position:absolute; left:21px; top:16px; width:204px; height:106px; z-index:5; background-color: #FFFFFF; layer-background-color: #FFFFFF; border: 1px SOLID #000000; overflow: hidden; visibility: visible;"> 
+	<IMG SRC="#IMAGE#" WIDTH="204" HEIGHT="106" HSPACE="0" VSPACE="0" BORDER="0" ALIGN="ABSMIDDLE">
+</DIV>
+
+<TABLE WIDTH="100%" HEIGHT="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+  <TR WIDTH="135" HEIGHT="73" > 
+    <TD WIDTH="135" HEIGHT="73" ALIGN="LEFT" VALIGN="TOP" CLASS="section1"><IMG SRC='spacer.gif' WIDTH="1" HEIGHT="73" HSPACE="0" VSPACE="0" BORDER="0" ALIGN="ABSMIDDLE"></TD>
+    <TD ALIGN="RIGHT" VALIGN="MIDDLE" CLASS="section2"><TABLE WIDTH="615" BORDER="0" ALIGN="LEFT" CELLPADDING="0" CELLSPACING="0">
+        <TR> 
+          <TD ALIGN="RIGHT" VALIGN="TOP" CLASS="section2"><FONT CLASS="titlesys">#LOGO#&nbsp;&nbsp;</FONT></TD>
+        </TR>
+      </TABLE></TD>
+  </TR>
+  <TR WIDTH="135"> 
+    <TD WIDTH="135" ALIGN="CENTER" VALIGN="TOP" CLASS="section3"><IMG SRC='spacer.gif' WIDTH="135" HEIGHT="50" HSPACE="0" VSPACE="0" ALIGN="ABSMIDDLE"> 
+      <BR CLEAR=ALL>
+      <FONT CLASS="menusys">#VMENU#</FONT></TD>
+    <TD ALIGN="LEFT" VALIGN="TOP" CLASS="section4"> 
+	
+	<!-- Include Spacer Image in Content area for older Netscape Browsers -->
+	<SCRIPT LANGUAGE=Javascript>
+		var height = (document.height);
+		var spacerh = height - 105;
+		document.write('<IMG SRC=\'spacer.gif\' WIDTH="1" HEIGHT="'+spacerh+'" HSPACE="0" VSPACE="0" ALIGN="LEFT">');
+	</SCRIPT> 
+	
+	<TABLE WIDTH="615" BORDER="0" ALIGN="LEFT" CELLPADDING="5" CELLSPACING="0">
+        <TR> 
+          <TD ALIGN="CENTER" VALIGN="TOP" CLASS="section4"> <IMG SRC='spacer.gif' WIDTH="600" HEIGHT="30" HSPACE="0" VSPACE="0" ALIGN="ABSMIDDLE"><BR CLEAR=ALL> 
+            <FONT CLASS="contentsys">#CONTENT#</FONT></TD>
+        </TR>
+        <TR> 
+          <TD ALIGN="CENTER" VALIGN="TOP" CLASS="section4"><FONT CLASS="contentsys">#TMENU#</FONT></TD>
+        </TR>
+      </TABLE></TD>
+  </TR>
+  <TR WIDTH="135" HEIGHT="32" > 
+    <TD WIDTH="135" HEIGHT="32" ALIGN="LEFT" VALIGN="TOP" CLASS="section5"><IMG SRC='spacer.gif' WIDTH="1" HEIGHT="32" HSPACE="0" VSPACE="0"></TD>
+    <TD ALIGN="CENTER" VALIGN="TOP" CLASS="section6">&nbsp;</TD>
+  </TR>
+</TABLE>
+</BODY>
+</HTML>

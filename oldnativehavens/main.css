@@ -1,0 +1,74 @@
+﻿body
+{
+    background: #F3e7cf;
+    color: #009900;
+    font-family:Verdana,Arial;
+    font-size:12pt;
+    margin: 0 0 0 0;
+}
+
+a:link
+{
+    color: #009900;   
+}
+
+a:visited
+{
+    color: #009900;
+}
+
+a:hover
+{
+    color: #009900;
+}
+
+a:active
+{
+    color: #009900;
+}
+
+/** Menu Links **/ 
+a:link.menu
+{
+    color: #009900;
+    border: solid 0px white;   
+}
+
+a:visited.menu
+{
+    color: #009900;
+    border: solid 0px white; 
+}
+
+a:hover.menu
+{
+    color: #009900;
+    border: solid 0px white; 
+}
+
+a:active.menu
+{
+    color: #009900;
+    border: solid 0px white; 
+}
+
+table.main
+{
+    text-align:center;
+    border: solid 0px black;
+    border-collapse:collapse;
+    margin:auto;
+}
+
+img.photo
+{
+    border: solid 3px #009900;
+    margin: 5px;
+}
+
+/** =Resets **/
+address, blockquote, dl, ol, ul, li, form, fieldset, h1, h2, h3, h4, h5, h6, p, pre, td, table {
+margin:0;
+padding:0;
+}
+

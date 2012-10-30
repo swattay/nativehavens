@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Derek St. Holmes Online</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+.news {  font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt; font-weight: bold;
+	background-color: #606060;
+	font-style: normal;
+	color: #FFFFFF;
+	border-color: #000000
+ 	}
+-->
+</style>
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF" link="#FF9900" vlink="#FF9900" alink="#FF9900" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="" background="nav_bg.gif">
+<table width="740" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td><a href="http://www.derekstholmes.com"><img src="dsh_logo.gif" width="282" height="55" border=0></a></td>
+  </tr>
+  <tr align="center" bgcolor="#575656"> 
+    <td>
+#content#
+</td>
+  </tr>
+</table>
+<table width="740" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td align="left" valign="top"><img src="dsh_soholaunch.gif" width="129" height="62" usemap="#sohonav" border="0"><map name="sohonav"><area shape="rect" coords="12,6,127,40" href="http://www.soholaunch.com" target="_blank"></map></td>
+    <td colspan="2" align="center" valign="middle" background="nav_bg.gif"><form method=post action=newsletter.php3>
+        <img src="dsh_newsletter.gif" width="183" height="16"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><br>
+        <input type=hidden name=newscategory value="General Info">
+        <input class=news type="submit" name="Submit" value="Signup &gt;&gt;">
+        </font>
+      </form></td>
+    <td align="left" valign="top"><img src="navbar.gif" width="387" height="62" usemap="#mainnavbar" border="0">
+
+<map name="mainnavbar">
+<area shape="circle" coords="188,14,0" href="#">
+<area shape="circle" coords="241,25,15" href="index.php3?pr=Download" alt="Downloads" title="Downloads">
+<area shape="circle" coords="204,26,15" href="index.php3?pr=Multimedia" alt="Multimedia" title="Multimedia">
+<area shape="circle" coords="167,25,14" href="mdatabase.php3?dbname=photo_album&sortby=Category&searchtype=keyword" alt="Photo Album" title="Photo Album">
+<area shape="circle" coords="133,24,14" href="index.php3?pr=Jukebox" alt="Audio Jukebox" title="Audio Jukebox">
+<area shape="circle" coords="349,25,14" href="index.php3?pr=Biography" alt="Biography" title="Biography">
+<area shape="circle" coords="313,26,14" href="shopping.php3" alt="Online Store" title="Online Store">
+<area shape="circle" coords="277,25,14" href="index.php3?pr=Discography" alt="Discography" title="Discography">
+<area shape="circle" coords="95,25,14" href="calendar.php3?alterFlag=frontpage" alt="Tour Dates" title="Tour Dates">
+<area shape="circle" coords="60,25,14" href="index.php3?pr=Email_Derek" alt="Email Derek" title="Email Derek">
+<area shape="circle" coords="23,26,14" href="index.php3?pr=Whats_New" alt="What's New" title="What's New">
+</map></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

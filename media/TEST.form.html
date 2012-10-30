@@ -1,0 +1,101 @@
+<!---Begin form display-->
+<form enctype="multipart/form-data" method="post" action="pgm-form_submit.php">
+<style title="userform-inline_css">
+/* Generated CSS theme for user-created form */
+
+/* Hack to fix border on floated elements in IE */
+.ie_cleardiv {
+   display: block;
+   clear: both;
+   float: none;
+   margin: 0;
+   /*border: 1px dotted red;*/
+}
+
+.field-container {
+   display: block;
+   clear: both;
+   margin-bottom: 6px;
+   vertical-align: top;
+   font-family: Trebuchet MS, arial, helvetica, sans-serif;
+   /*border: 1px solid red;*/
+}
+.asterisk {
+   color: red;
+}
+
+.instructions {
+   margin-top: 0;
+   color: #2e2e2e;
+   font-family: Trebuchet MS, arial, helvetica, sans-serif;
+   font-size: 12px;
+   line-height: 1.1em !important;
+}
+
+.myform-field_title-top,
+.myform-field_title-left {
+   font-size: 11px;
+   font-weight: normal;
+   font-family: Trebuchet MS, arial, helvetica, sans-serif;
+   margin-bottom: 0;
+   color: #595959;
+   border-width: 1px;
+   border-color: #ccc;
+   border-style: hidden;
+}
+.myform-field_title-left {
+   display: block;
+   float: left;
+   margin-right: 15px;
+   /*margin-top: 12px;*/
+   margin-top: 2px;
+   text-align: left;
+   /*border: 1px solid red;*/
+}
+
+.myform-field_title-hidden {
+   display: none;
+}
+
+.myform-input_container, .myform-formfield_container {
+   display: block;
+   float: left;
+   margin-top: 0;
+   font-size: 11px;
+}
+
+#form_body_container h1,
+#form_body_container h2,
+#form_body_container h3,
+#form_body_container h4,
+#form_body_container h5,
+#form_body_container h6 {
+   font-family: Trebuchet MS, arial, helvetica, sans-serif;
+   margin-bottom: 0;
+}
+</style>
+<!---Begin form display-->
+<div id="form_body_container" style="text-align: left;background-color: transparent;margin: 10;padding: 0px;width: ;border-style: none;border-width: 0;border-color: #000;">
+<div class="field-container">
+ <h1 style="color: #595959;">TEST</h1>
+ <p class="instructions" style="color: #595959;">This is my form. Please fill it out.</p>
+ <div class="ie_cleardiv">
+ </div>
+</div>
+<div class="field-container">
+ <p class="myform-field_title-left" style="width: 75px;">Name<span class="asterisk">*</span>
+</p>
+ <p class="myform-input_container"><input type="text" name="Name" style="width: 220px;" maxlength="50"/></p>
+ <div class="ie_cleardiv">
+ </div>
+</div>
+<input type="hidden" name="required_fields" value="Name;"/>
+ <div id="userform-submit_btn-container" style="text-align: left;">
+  <input id="userform-submit_btn" type="submit" value="Submit &gt;&gt;" style="font-size: 13px;font-weight: normal;">
+ </div>
+
+</form>
+
+</div>
+
+

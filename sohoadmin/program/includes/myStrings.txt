@@ -1,0 +1,152 @@
+
+
+--------New File-------
+
+/home/soho/product/pro/dev/probugz.soholaunch.com/htdocs/sohoadmin/program
+
+Site Backup / Restore
+Install Software Updates
+Check for software updates
+Current Version
+Release Date
+Changes in this build
+On-Menu Pages
+Off-Menu Pages
+Speed-Dial Pages Menu
+
+
+--------New File-------
+
+/home/soho/product/pro/dev/probugz.soholaunch.com/htdocs/sohoadmin/program/modules
+
+Note: You do not have assign a template to each page individually.
+You may assign a single Site Base Template that applies to your entire website via the <a href=#LINK#>Template Manager</a> feature.
+Please only use Alpha Numerical characters and Underscores.
+Media, document, and code files may be downloaded by clicking on the arrow next to the filename.
+Images
+Rename
+Documents, Presentations, and Adobe PDFs
+Video Files
+Spreadsheets and CSV files
+Custom web forms and text files
+Custom HTML includes
+Custom HTML template files
+Custom PHP scripts
+Unclassified files
+Upload Custom Template Folder (Zipped)
+To upload a custom template
+Place all files(images,index.html,custom.css) into a folder and name the folder like this
+Category-Sub_Category-Color
+Example
+AUTOMOTIVE-Classic_Cars-Blue
+Zip the folder and upload it below
+After upload the template will be availible in the list of templates
+Zipped Template Folder
+
+
+--------New File-------
+
+/home/soho/product/pro/dev/probugz.soholaunch.com/htdocs/sohoadmin/program/modules/mods_full
+
+Denotes an event that is a 'Recurrence' of an original master event.
+Denotes the original 'Master' event within a recurring event cycle.
+
+
+--------New File-------
+
+/home/soho/product/pro/dev/probugz.soholaunch.com/htdocs/sohoadmin/program/webmaster
+
+In progress
+Complete
+No file selected!\nPlease choose a backup file from your hard drive.
+Website backup in progress...
+This process may take several moments.
+Importing website backup file...
+This process may take several moments, depending on connection speed.
+User notes for this backup
+Site backup in progress. Please hold.
+Creating folder for this backup
+Writing backup info to text file
+Archiving site content and files
+Creating data table restoration file
+Creating downloadable archive file
+Inserting backup record into site log
+Done
+Restore from a previous backup
+Note: When downloading backups, make sure to save the file with a '.tgz' extension NOT '.gz'
+Backup Title
+Backup Date
+Backup Time
+Are you sure you want to permanently delete this backup?
+Current website will be replaced with backup data.
+All unsaved data will be lost.
+Are you sure you want to restore the backup?
+Notes
+Upload and import site backup file
+Select Backup File
+Import Backup File
+Webmaster: Site Backup and Restoration
+Step 1: Blog Title
+Done!
+Step 2: Enter Content For Blog
+Launch Editor
+Step 3: Post Blog to
+FAQ Manager
+Reset Text Editor Mode
+No file selected!\nPlease choose a backup file from your hard drive.
+Are you sure you want to permanently delete this backup?
+Are you sure you want to restore the backup?
+Webmaster: FAQ Manager
+
+
+--------New File-------
+
+/home/soho/product/pro/dev/probugz.soholaunch.com/htdocs/sohoadmin/program/modules/page_editor
+
+Printable Page
+Click on an object above and drag it onto a drop zone for page placement.
+
+
+--------New File-------
+
+/home/soho/product/pro/dev/probugz.soholaunch.com/htdocs/sohoadmin/program/modules/mods_full/shopping_cart
+
+User-Defined Variable
+PayPoint USA
+Authorize.net
+PayPoint USA Quicksale
+Account ID
+How to configure WorldPay
+Innovate Gateway Solutions
+Login ID
+Transaction Key
+Display a field for Zip/Postal Code?
+YES - Zip/Postal Code
+YES - Postal Code
+YES - Zip Code
+NO - Do not display
+US States
+US States and Territories
+US and Canada
+Australian States
+Backup/Restore
+Secure Users Menu
+Note: You may assign a single Site Base Template that applies to your entire website via the <a href=#LINK#>Template Manager</a> feature.
+To change the template for a specific page, edit the page, select page properties, and select the template from the drop down box.
+Image files can be viewed and saved by clicking the preview icon next to the filename.
+Indicates an image that should be reduced in filesize. This file causes slow load-times when viewing your web site.
+Upload Custom Template Folder (Zipped)
+Place all files(images,index.html,custom.css) into a folder and name the folder like this
+What is your site visitor supposed to enter or select for this field
+No file selected!\nPlease choose a backup file from your hard drive.
+Note: After backing up your site, please download the backup and delete it here for security purposes.
+Special Promotions
+
+
+--------New File-------
+
+/home/soho/product/pro/dev/probugz.soholaunch.com/htdocs/sohoadmin/program/modules/mods_full/database_manager
+
+show all
+Background
+Click on an object below and drag it onto a drop zone for page placement.

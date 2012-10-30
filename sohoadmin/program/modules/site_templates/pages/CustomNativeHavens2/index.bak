@@ -1,0 +1,52 @@
+<!-- This file created with the Soholaunch Template Creator -->
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+<head>
+<title>Template Builder Template</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+</head>
+
+<body>
+
+<div class="bgcol" style="width: 810px;">
+<table id="head_table" width="800px" border="0" cellspacing="0" cellpadding="0">
+  <tr height="120">
+    <td id="main_imgBG" class="bgcol" align="left" valign="top" width="800px">
+	<img id="main_img" src="logocircle.jpg" width="800px" height="120px">
+    </td>
+    <td width="100%" align="left" valign="top">
+    </td>
+  </tr>
+	<tr><td width="100%" valign="top" colspan="2" class="navigation">
+#HMAINS#
+</td>
+</tr>
+<tr>
+<td class="navigation_sub" width="100%" valign="top" colspan="2">
+#HSUBS#
+</td>
+</tr>
+
+  <tr>
+	<td id="content" width="100%" height="100" colspan="2">
+#CONTENT#
+</td>
+
+  </tr>
+  <tr>
+    <td align="center" height="40" colspan="2" class="footerNav"><br>
+	<font size="1" face="Arial, Helvetica" color="White">Native Havens - 27 Powers Drive - Kearneysville, WV  25430<br />Phone:(302) 363-3045 - Fax:(301) 963-9143<br />Copyright © 2010 Native Havens  All rights reserved.<br /><a href="mailto:nativehavens@gmail.com">nativehavens@gmail.com</a></font><br>
+
+	</td>
+  </tr>
+</table>
+</div>
+
+</body>
+</html>

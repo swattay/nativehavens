@@ -1,0 +1,238 @@
+/*##########################################################################################################
+============================================================================================================
+Client-Side Display Elements
+------------------------------------------------------------------------------------------------------------
+>> This is the default stylesheet for all
+>> visitor-facing elements on the website
+>> itself (i.e. checkout system).
+============================================================================================================
+##########################################################################################################*/
+
+
+/*################################################################################################
+--------------------------------------------------------------------------------------------------
+>> General
+--------------------------------------------------------------------------------------------------
+################################################################################################*/
+
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+.sohotext {
+	font-family : Arial;
+	font-size: 9pt;
+}
+
+.SMtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+.smtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+.uptext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: darkgreen;
+}
+
+.FormLt1 {
+	font-family : Arial;
+	font-size : 8pt;
+	cursor: hand;
+}
+
+
+
+/*################################################################################################
+--------------------------------------------------------------------------------------------------
+>> Menu System - #VMENU#
+--------------------------------------------------------------------------------------------------
+################################################################################################*/
+
+/*================================================================================
+>> General
+================================================================================*/
+
+table.vmenu_mainz {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This cell contains the submenu table */
+td.vmenu_main_sub {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+}
+
+table.vmenu_subz {
+   font-size: 11px;
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+}
+
+/*================================================================================
+>> Main Menu Links
+================================================================================*/
+
+td.vmenu_main_off {
+   width: 100%;
+   border: 0px;
+   padding: 8px 5px 0px 10px;
+}
+
+td.vmenu_main_on {
+   width: 100%;
+   border: 0px;
+   padding: 8px 5px 0px 10px;
+}
+
+div.vmenu_main_off {
+   width: 100%;
+   font-size: 13px;
+}
+
+div.vmenu_main_on {
+   width: 100%;
+   font-size: 13px;
+}
+
+a.vmenu_main_off:link { color: #317344; text-decoration: none; }
+a.vmenu_main_off:visited { color: #317344; text-decoration: none; }
+a.vmenu_main_off:hover { color: #1AC249; text-decoration: none; }
+a.vmenu_main_off:active { color: #1AC249; text-decoration: none; }
+
+a.vmenu_main_on:link { color: #336699; text-decoration: underline; }
+a.vmenu_main_on:visited { color: #336699; text-decoration: underline; }
+a.vmenu_main_on:hover { color: #6699cc; text-decoration: underline; }
+a.vmenu_main_on:active { color: #6699cc; text-decoration: underline; }
+
+
+/*================================================================================
+/* Sub Menu Links
+================================================================================*/
+
+/* Sub menu bullets */
+td.vmenu_sub_bull_off {
+   width: 20px;
+   padding: 3px 0px 0px 15px;
+}
+
+td.vmenu_sub_bull_on {
+   width: 20px;
+   padding: 3px 0px 0px 15px;
+}
+
+div.vmenu_sub_bull_off {
+   font-size: 11px;
+   color: #336699;
+   font-weight: bold;
+}
+
+div.vmenu_sub_bull_on {
+   font-size: 11px;
+   color: #6699cc;
+   font-weight: bold;
+}
+
+/* Sub Menu Links */
+td.vmenu_sub_off {
+   width: 100%;
+   border: 0px;
+   padding: 3px 2px 0px 1px;
+}
+
+td.vmenu_sub_on {
+   width: 100%;
+   border: 0px;
+   padding: 3px 2px 0px 1px;
+}
+
+div.vmenu_sub_off {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+   font-size: 12px;
+}
+
+div.vmenu_sub_on {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+   font-size: 12px;
+}
+
+a.vmenu_sub_off:link { color: #336699; text-decoration: none; }
+a.vmenu_sub_off:visited { color: #336699; text-decoration: none; }
+a.vmenu_sub_off:hover { color: #6699cc; text-decoration: none; }
+a.vmenu_sub_off:active { color: #6699cc; text-decoration: none; }
+
+a.vmenu_sub_on:link { color: #6699cc; text-decoration: none; }
+a.vmenu_sub_on:visited { color: #6699cc; text-decoration: none; }
+a.vmenu_sub_on:hover { color: #6699cc; text-decoration: none; }
+a.vmenu_sub_on:active { color: #6699cc; text-decoration: none; }
+
+
+
+
+/*================================================================================
+/* On States (if visitor is viewing page that menu item links to)
+================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+/*################################################################################################
+--------------------------------------------------------------------------------------------------
+>> Old Styles (to be phased out after obsolecense is assured)
+--------------------------------------------------------------------------------------------------
+################################################################################################*/
+textarea {
+	font-size:8pt;
+	height:75px;
+	width:175px;
+}
+
+.logohead {
+	font-family : Arial;
+	font-size : 25pt;
+	font-weight : bold;
+}
+
+.logosub {
+	font-family : Arial;
+	font-size : 8pt;
+	font-weight : bold;
+}
+
+
+
+.border {
+	font-family: Arial;
+	font-size: 8pt;
+	border: 1px #000000 inset;
+}
+
+
+
+.menusys {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+

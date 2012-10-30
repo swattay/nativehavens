@@ -1,0 +1,100 @@
+
+.bgcol {
+	background-color:#325884;
+}
+.navigation
+{
+   /*width: 100px;*/
+   padding:6px; 
+   margin-left:10px;
+	background: #638CBB;
+	border-bottom:1px solid #D1E4FA;
+}
+
+.navigation_sub{
+	width: 100%;
+	background: #D1E4FA;
+	font-weight:normal;
+	font-size:12px;
+	padding:5px;
+	margin-left:10px;
+}
+
+.footerNav {
+	background:#2D5179;
+}
+
+.pound_logotxt {
+    font-weight:bold; 
+    color: #FFFFFF;
+    font-size: 21px; 
+    margin:0px;
+    padding-top: 50px;
+    padding-left: 35px;
+}
+
+.tagline
+{
+	font-weight:bold; 
+   color: #FFFFFF;
+   margin:0px;
+   font-size: 15px !important;
+   padding-top: 10px;
+   padding-left: 35px;
+}
+
+#side_menu {
+	display: none;
+	float: left;
+	width: 220px;
+	height: 200px;
+	background: #638CBB;
+}
+
+#side_menu_light {
+	display: none;
+	float: left;
+	width: 220px;
+	height: 200px;
+	background: #D1E4FA;
+}
+
+#footer_menu {
+	display: none;
+}
+
+#footer_menu a {
+	color: #FFFFFF;
+}
+
+
+
+#lightBlue {
+	background: #D1E4FA;
+}
+	
+
+
+.navigation_sub a{
+	width: 100%;
+	color: #000000 !important;
+}
+
+.navigation a{
+   
+	font-size:12px;
+	color:#ffffff !important;
+}
+.navigation a:link{
+   font-size:12px;
+   color: #ffffff !important;
+}
+.navigation a:hover{
+  font-size:12px;
+}
+.navigation a:visited{
+  font-size:12px;
+}
+
+
+

@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NativeHavens.master.cs"
+    Inherits="NativeHavens.NativeHavens" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Native Havens - Home</title>
+    <script src="rollovers.js" type="text/javascript"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onload="MM_preloadImages('images/mnu_gardens_on.jpg');MM_preloadImages('images/mnu_walls_on.jpg');MM_preloadImages('images/mnu_patios_on.jpg');MM_preloadImages('images/mnu_lighting_on.jpg');MM_preloadImages('images/mnu_beforeandafter_on.jpg');MM_preloadImages('images/mnu_aboutus_on.jpg');MM_preloadImages('images/mnu_computerdesign_on.jpg');MM_preloadImages('images/mnu_contact_on.jpg')">
+    <form id="form1" runat="server">
+    <table class="main" width="800" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td colspan="8"><a href="\"><img src="images/logo.jpg" width="800" height="123" alt="Native Havens Landscaping" border="0" /></a></td>
+        </tr>
+        <tr>
+            <td colspan="8">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="Gardens.aspx" class="menu" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('document.imgGardens','document.imgGardens','images/mnu_gardens_on.jpg')"><img name="imgGardens" src="images/mnu_gardens_off.jpg" width="98" height="33" alt="Gardens" border="0px" /></a>
+            </td>
+            <td>
+                <a href="Walls.aspx" class="menu" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('document.imgWalls','document.imgWalls','images/mnu_walls_on.jpg')"><img name="imgWalls" src="images/mnu_walls_off.jpg" width="65" height="33" alt="Walls" border="0px" /></a>
+            </td>
+            <td>
+                <a href="Patios.aspx" class="menu" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('document.imgPatios','document.imgPatios','images/mnu_patios_on.jpg')"><img name="imgPatios" src="images/mnu_patios_off.jpg" width="75" height="33" alt="Patios" border="0px" /></a>
+            </td>
+            <td>
+                <a href="Lighting.aspx" class="menu" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('document.imgLighting','document.imgLighting','images/mnu_lighting_on.jpg')"><img name="imgLighting" src="images/mnu_lighting_off.jpg" width="84" height="33" alt="Lighting" border="0px" /></a>
+            </td>
+            <td>
+                <a href="BeforeAndAfter.aspx" class="menu" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('document.imgBeforeAndAfter','document.imgBeforeAndAfter','images/mnu_beforeandafter_on.jpg')"><img name="imgBeforeAndAfter" src="images/mnu_beforeandafter_off.jpg" width="139" height="33" alt="Before & After" border="0px" /></a>
+            </td>
+            <td>
+                <a href="AboutUs.aspx" class="menu" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('document.imgAboutUs','document.imgAboutUs','images/mnu_aboutus_on.jpg')"><img name="imgAboutUs" src="images/mnu_aboutus_off.jpg" width="91" height="33" alt="About Us" border="0" /></a>
+            </td>
+            <td>
+                <a href="ComputerDesign.aspx" class="menu" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('document.imgComputerDesign','document.imgComputerDesign','images/mnu_computerdesign_on.jpg')"><img name="imgComputerDesign" src="images/mnu_computerdesign_off.jpg" width="155" height="33" alt="Computer Design" border="0px" /></a>
+            </td>
+            <td>
+                <a href="Contact.aspx" class="menu" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('document.imgContact','document.imgContact','images/mnu_contact_on.jpg')"><img name="imgContact" src="images/mnu_contact_off.jpg" width="93" height="33" alt="Contact" border="0px" /></a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="8">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+        <td colspan="8">
+        <br />
+        Owner & Operator James Dillon, pch<br />
+        Copyright © 2009 Native Havens - Phone: (302) 363-3045 - Fax: (301) 963-9143<br />
+        <a href="mailto:nativehavens@gmail.com">nativehavens@gmail.com</a>
+        </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

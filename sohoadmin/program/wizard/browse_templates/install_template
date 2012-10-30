@@ -1,0 +1,10 @@
+<?php
+#=========================================================================================================
+# Called via ajaxDo() in browse_templates.php
+# Gets detailed info about passed template
+# Ouput of this script is placed in #template_details box in browse_templates.php
+#=========================================================================================================
+# ACCEPTS: $_GET['template_folder']
+
+
+?>

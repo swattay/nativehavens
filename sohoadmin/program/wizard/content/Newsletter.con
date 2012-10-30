@@ -1,0 +1,124 @@
+<table border=0 cellpadding=1 cellspacing=0 width=612>
+
+<tr>
+     <td align=center valign=top width=199></td>
+     <td align=center valign=top width=199></td>
+     <td align=center valign=top width=199></td>
+</tr>
+
+
+<tr>
+     <td align=center valign=top width=612 colspan=3><div align=center>
+
+          
+
+
+
+<table border=0 cellpadding=0 cellspacing=0 width=100% align=center>
+<tr>
+
+     <td align=left valign=top class=sohotext width=100%>	 <FONT face=verdana,geneva,arial,sans-serif size=2><EM>Fill out and submit the form below to sign up for #COMPANY#'s newsletter.</EM></FONT> 
+	
+
+
+</td>
+</tr>
+</table>
+
+
+          
+
+</div>
+</td>
+</tr>
+
+
+<tr>
+     <td align=center valign=top width=612 colspan=3><div align=center>
+
+
+<!-- 
+
+###########################################################
+### ADD FORM NOW
+###########################################################
+
+--> 
+
+<DIV ALIGN=CENTER>
+
+          <FORM METHOD=POST ACTION="pgm-form_submit.php">
+
+          <input type=hidden name=EMAILTO value="NEWSLETTER_SIGNUP_PROCESS">
+          <input type=hidden name=PAGEREQUEST value="Newsletter">
+          <input type=hidden name=DATABASE value="my_newsletter">
+          <input type=hidden name=PAGEGO value="Home Page">
+          <input type=hidden name=RESPONSEFROM value="#WIZEMAIL#">
+          <input type=hidden name=SUBJECTLINE value="** #WIZDOMAIN# auto-response **">
+          <input type=hidden name=RESPONSEFILE value="DEFAULT2020202024452345.TXT">
+          <input type=hidden name=CUST_FILENAME value="#WIZROOT#/sohoadmin/program/modules/page_editor/formlib/newsletter/Quick-N-Dirty_Signup.form">
+
+
+          
+          
+          <INPUT TYPE=HIDDEN NAME="required_fields" VALUE="First Name;Email Address;Year Born">
+          
+          
+          <TABLE WIDTH="550" BORDER="0" ALIGN="CENTER" CELLPADDING="7" CELLSPACING="0" BGCOLOR="white" STYLE='BORDER: 1px inset black;'>
+          <TR ALIGN="CENTER" VALIGN="MIDDLE" BGCOLOR="#708090">
+          <TD COLSPAN="2" CLASS="text"><FONT COLOR="#FFFFFF" SIZE="2" FACE="Verdana, Arial, Helvetica, sans-serif">You
+          must be at least 13 years old to register.<BR>
+          Teens please get your parents permission before you proceed.</FONT></TD>
+          </TR>
+          <TR>
+          <TD ALIGN="RIGHT" CLASS="text"><FONT SIZE="2" FACE="Verdana, Arial, Helvetica, sans-serif">First
+          Name:</FONT></TD>
+          <TD CLASS="text"><INPUT NAME="First Name" TYPE="text" ID="First Name" STYLE='font-family: Arial; font-size: 8pt; color: darkblue; width: 250px;'></TD>
+          </TR>
+          <TR>
+          <TD ALIGN="RIGHT" CLASS="text"><FONT SIZE="2" FACE="Verdana, Arial, Helvetica, sans-serif">Email Address:</FONT></TD>
+          <TD CLASS="text"><INPUT NAME="Email Address" TYPE="text" ID="Email Address" STYLE='font-family: Arial; font-size: 8pt; color: darkblue; width: 250px;'></TD>
+          </TR>
+          <TR>
+          <TD ALIGN="RIGHT" CLASS="text"><FONT SIZE="2" FACE="Verdana, Arial, Helvetica, sans-serif">What
+          year were you born?</FONT></TD>
+          <TD CLASS="text"><INPUT NAME="Year Born" TYPE="text" value="" MAXLENGTH=4 ID="Year Born" STYLE='font-family: Arial; font-size: 8pt; color: darkblue; width: 250px;'></TD>
+          </TR>
+          <TR ALIGN="CENTER" VALIGN="TOP">
+          <TD COLSPAN="2" CLASS="text"><BR>
+          <FONT SIZE="2" FACE="Verdana, Arial, Helvetica, sans-serif">Select the
+          type of email information you would like <br>
+          to receive, HTML or Text based?</FONT><br>
+          <BR> <INPUT NAME="EMAIL_TYPE" TYPE="radio" VALUE="HTML" CHECKED>
+          <FONT SIZE="2" FACE="Verdana, Arial, Helvetica, sans-serif">HTML&nbsp;<FONT COLOR="#999999">(Standard)</FONT></FONT>&nbsp;&nbsp;&nbsp;&nbsp;
+          <INPUT TYPE="radio" NAME="EMAIL_TYPE" VALUE="TEXT">
+          <FONT SIZE="2" FACE="Verdana, Arial, Helvetica, sans-serif">Text&nbsp; <FONT COLOR="#999999">(Older
+          Email Clients)</FONT></FONT></TD>
+          </TR>
+          <TR>
+          <TD COLSPAN="2" CLASS="text">&nbsp;</TD>
+          </TR>
+          <TR ALIGN="CENTER" VALIGN="MIDDLE">
+          <TD COLSPAN="2" CLASS="text"><INPUT TYPE="submit" VALUE="Sign-up Now" CLASS="FormLt1"></TD>
+          </TR>
+          </TABLE>
+          
+          </FORM>
+
+
+</DIV>
+
+<!-- 
+
+###########################################################
+### END FORM 
+###########################################################
+
+--> 
+
+
+</div>
+</td>
+</tr>
+        
+</table>

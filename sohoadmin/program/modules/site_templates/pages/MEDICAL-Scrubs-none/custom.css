@@ -1,0 +1,100 @@
+
+.FormLt1 {
+	font-family : Arial;
+	font-size : 8pt;
+	cursor: hand;
+}
+
+textarea {
+	font-size:8pt;
+	height:75px;
+	width:175px;
+}
+
+.logohead {
+	font-family : Arial;
+	font-size : 25pt;
+	font-weight : bold;
+}
+
+.logosub {
+	font-family : Arial;
+	font-size : 8pt;
+	font-weight : bold;
+}
+
+.sohotext {
+font-family: geneva, verdana, arial, helvetica, sans-serif;
+font-size:12px;
+}
+
+
+.border {
+	font-family: Arial;
+	font-size: 8pt;
+	border: 1px #000000 inset;
+}
+
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+.SMtext { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+.uptext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: darkgreen;
+}
+
+.pound_logo {
+font-family: arial, helvetica, sans-serif;
+color: #000000;
+font-size: 18px;
+font-style: italic;
+padding: 10px 0px 0px 110px;
+}
+
+.pound_vmenu {
+padding-left: 5px;
+padding-top: 5px;
+}
+
+.pound_content {
+padding: 5px 10px 5px 5px;
+border: 0px solid #E21414;
+border-style: solid solid none solid;
+}
+
+td.vmenu_off {font-family: geneva, arial, helvetica; letter-spacing:1px; font-size: 12px; padding: 0px 0px 5px 5px; border-left: 1px solid #C7C7C7;}
+.vmenu_off a:link {text-decoration: none; border-bottom:none; font-weight: normal; color: #000000;}
+.vmenu_off a:visited {text-decoration: none; border-bottom:none; font-weight: normal; color: #000000;}
+.vmenu_off a:hover {text-decoration: none; border-bottom: 1px solid #FFF6E3; font-weight: normal; color: #000000;}
+.vmenu_off a:active {text-decoration: none; border-bottom: 1px solid #FFF6E3; font-weight: normal; color: #000000;}
+
+td.vmenu_on {background: #FFF6E3; font-family: geneva, arial, helvetica; letter-spacing:1px; font-size: 12px; padding: 0px 0px 5px 5px; border-top: 1px solid #039779; border-left: 1px solid #039779;}
+.vmenu_on a:link {text-decoration: none; border-bottom: 1px solid #039779; font-weight: bold; color: #000000;}
+.vmenu_on a:visited {text-decoration: none; border-bottom: 1px solid #039779; font-weight: bold; color: #000000;}
+.vmenu_on a:hover {text-decoration: none; border-bottom: 1px solid #039779; font-weight: bold; color: #000000;}
+.vmenu_on a:active {text-decoration: none; border-bottom: 1px solid #039779; font-weight: bold; color: #000000;}
+
+td.submenu_off {background: #FFF6E3; font-family: geneva, arial, helvetica; font-size: 11px; padding: 0px 0px 5px 5px; border-left: 1px solid #039779;}
+.submenu_off a:link {text-decoration: none; border-bottom:none; font-weight: normal; color: #000000;}
+.submenu_off a:visited {text-decoration: none; border-bottom:none; font-weight: normal; color: #000000;}
+.submenu_off a:hover {text-decoration: none; border-bottom:none; font-weight: normal; color: #000000;}
+.submenu_off a:active {text-decoration: none; border-bottom:none; font-weight: normal; color: #000000;}
+
+td.submenu_on {background: #FFF6E3; font-family: geneva, arial, helvetica; font-size: 11px; padding: 0px 0px 5px 5px; border-left: 1px solid #039779;}
+.submenu_on a:link {text-decoration: none; border-bottom:none; font-weight: bold; color: #039779;}
+.submenu_on a:visited {text-decoration: none; border-bottom:none; font-weight: bold; color: #039779;}
+.submenu_on a:hover {text-decoration: none; border-bottom:none; font-weight: bold; color: #039779;}
+.submenu_on a:active {text-decoration: none; border-bottom:none; font-weight: bold; color: #039779;}
+
+a:link {color: #039779; text-decoration:none; border-bottom:1px solid #039779;}
+a:visited {color: #039779; text-decoration:none; border-bottom:1px solid #039779;}
+a:hover {color: #039779; text-decoration:none; border-bottom:1px solid #31DD7A;}
+a:active {color: #039779; text-decoration:none; border-bottom:1px solid #31DD7A;}

@@ -1,0 +1,210 @@
+
+<script language="javascript">
+
+	function change_color(value, what) {
+	   //alert("something -"+value+"-"+what+"-");
+		var value = "#"+value;
+		eval("document.TBUILD."+what+".value = '"+value+"';");
+		var demo = what+"_VIEW";
+		eval(demo+".style.background = '"+value+"';");
+		
+	}
+	
+	function show_image(what) {
+		if (what != "NOIMAGE") {
+			var value = "<img src='http://<? echo $this_ip; ?>/images/"+what+"' width=204 height=106 border=0>";
+		} else {
+			var value = "Image Preview Area";
+		}
+		
+		IMG_PREVIEW.innerHTML = value;
+	}
+	
+	function save_template() {
+	
+		var test = 0;
+
+		if (document.TBUILD.TEMP_NAME.value == "") { var test = 1; }
+		if (document.TBUILD.IMAGE.value == "NOIMAGE") { var test = 2; }
+		
+		if (test == 0) { document.TBUILD.submit(); }
+		
+		if (test == 1) { alert('Please assign a valid name for this Template to be saved as before continuing.'); }
+		if (test == 2) { alert('Please select an image to use with this template.'); }
+		
+	}
+		
+</script>
+
+
+  <TABLE WIDTH="700" BORDER="0" CELLSPACING="0" CELLPADDING="4" ALIGN="CENTER" CLASS="text">
+   <TR> 
+    <TD ALIGN="LEFT" VALIGN="TOP">  
+	  <INPUT TYPE=HIDDEN NAME="BUILDER" VALUE="ACTIVE">
+	  <B><? echo $lang["Template Name"]; ?></B>:
+	  <BR>
+	  <INPUT TYPE="text" NAME="TEMP_NAME" STYLE="width: 300px;" CLASS="text"> 
+     <BR>
+     <BR>
+	  <B><? echo $lang["Template Image"]; ?></B>:
+	  <BR>
+	  <select name="IMAGE" SIZE="1" CLASS="text" STYLE="width: 300px;" onchange="show_image(this.value);">
+      <? echo $img_selection; ?>
+     </select>
+	  <DIV ALIGN=LEFT>
+	   <BR>
+		<INPUT TYPE="BUTTON" VALUE="<? echo $lang["Preview Design"]; ?>" CLASS="FormLt1" ONCLICK="preview_temp();"> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		<INPUT TYPE="BUTTON" VALUE="<? echo $lang["Save Design"]; ?>" CLASS="FormLt1" ONCLICK="save_template();">
+	  </DIV> 
+    </TD>
+    <TD ALIGN=CENTER>
+     <TABLE CLASS="allBorder" WIDTH="206" HEIGHT="108" ALIGN="CENTER" CELLPADDING="0" CELLSPACING="0" BGCOLOR="#666666">
+      <TR> 
+       <TD ALIGN="CENTER" VALIGN="MIDDLE"><SPAN ID="IMG_PREVIEW"><? echo $lang["Image Preview Area"]; ?></SPAN></TD>
+      </TR>
+     </TABLE>
+     <BR CLEAR=ALL>
+     <FONT COLOR="#999999">
+      <? echo $lang["Image must be 204px Wide x 106px High"]; ?>
+     </FONT>
+    </TD>
+   </TR>
+   <TR> 
+    <TD COLSPAN="2">
+     <B><? echo $lang["Template Style"]; ?></B>:
+     <BR>
+     <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="2" CLASS="allBorder">
+      <TR> 
+       <TD ALIGN="CENTER" VALIGN="MIDDLE">
+        <IMG SRC="styles/blank.gif" WIDTH="140" HEIGHT="90" HSPACE="0" VSPACE="0" ALIGN="TOP"> 
+        <BR CLEAR=ALL>
+        <INPUT TYPE="radio" NAME="TEMP_STYLE" VALUE="BLANK"><B><? echo $lang["Blank"]; ?></B>
+       </TD>
+       <TD ALIGN="CENTER" VALIGN="MIDDLE"><IMG SRC="styles/left.gif" WIDTH="140" HEIGHT="90" HSPACE="0" VSPACE="0" ALIGN="TOP"> 
+        <BR CLEAR=ALL>
+        <INPUT TYPE="radio" NAME="TEMP_STYLE" VALUE="LEFTBAR"><B><? echo $lang["Left Bar"]; ?></B>
+       </TD>
+       <TD ALIGN="CENTER" VALIGN="MIDDLE">
+        <IMG SRC="styles/lshape.gif" WIDTH="140" HEIGHT="90" HSPACE="0" VSPACE="0" ALIGN="TOP">
+        <BR CLEAR=ALL>
+        <INPUT TYPE="radio" NAME="TEMP_STYLE" VALUE="LSHAPE"><B><? echo $lang["L-Shape"]; ?></B>
+       </TD>
+       <TD ALIGN="CENTER" VALIGN="MIDDLE">
+        <IMG SRC="styles/ushape.gif" WIDTH="140" HEIGHT="90" HSPACE="0" VSPACE="0" ALIGN="TOP"> 
+        <BR CLEAR=ALL>
+        <INPUT TYPE="radio" NAME="TEMP_STYLE" VALUE="USHAPE"><B><? echo $lang["U-Shape"]; ?></B>
+       </TD>
+       <TD ALIGN="CENTER" VALIGN="MIDDLE">
+        <IMG SRC="styles/pro.gif" WIDTH="140" HEIGHT="90" HSPACE="0" VSPACE="0" ALIGN="TOP"> 
+        <BR CLEAR=ALL>
+        <INPUT NAME="TEMP_STYLE" TYPE="radio" VALUE="PRO" CHECKED><B><? echo $lang["Pro"]; ?></B>
+       </TD>
+      </TR>
+     </TABLE>
+    </TD>
+   </TR>
+   <TR>
+    <td align="left" valign="top" colspan="2">
+     <table border="0" cellpadding="3" cellspacing="0" class="text" width="100%">
+      <tr>
+       <td align="left" valign="middle">
+        <? echo $lang["Foreground"]; ?>:
+       </td>
+       <td align="left" valign="middle">
+        <SELECT NAME="FCOLOR_SEL" SIZE="1" CLASS="text" onChange="change_color(this.value,'FCOLOR');">
+         <? echo $COPTIONS; ?>
+        </SELECT>&nbsp;
+       </td>
+       <td align="left" valign="middle">
+        <div id="FCOLOR_VIEW" STYLE="width: 15px; height: 15px; border: 1px solid black;"></div>
+       </td>
+       <TD ALIGN="right" VALIGN="MIDDLE">
+        Hex:
+       </td>
+       <td align="left" valign="middle"> 
+        <INPUT NAME="FCOLOR" TYPE="text" VALUE="" SIZE="9" MAXLENGTH="7" CLASS="text">
+       </TD>
+       <td width="20">&nbsp;</td>
+       <td align="left" valign="middle">
+        <? echo $lang["Title"]; ?>:
+       </td>
+       <td align="left" valign="middle">
+        <SELECT NAME="TCOLOR_SEL" SIZE="1" CLASS="text" onchange="change_color(this.value,'TCOLOR');">
+         <? echo $COPTIONS; ?> 
+        </SELECT>
+       </td>
+       <td align="left" valign="middle">
+        <div id="TCOLOR_VIEW" STYLE="width: 15px; height: 15px; border: 1px solid black;"></div>
+       </td>
+       <td align="right" valign="middle">
+        Hex:
+       </td>
+       <td align="left" valign="middle">
+        <INPUT NAME="TCOLOR" TYPE="text" VALUE="" SIZE="9" MAXLENGTH="7" CLASS="text">
+       </TD>
+      </TR>
+      <TR> 
+       <td align="left" valign="middle">
+        <? echo $lang["Background"]; ?>:
+       </td>
+       <td align="left" valign="middle">        
+        <SELECT NAME="BCOLOR_SEL" SIZE="1" CLASS="text" onchange="change_color(this.value,'BCOLOR');">
+         <? echo $COPTIONS; ?>
+        </SELECT>
+       </td>
+       <td align="left" valign="middle">        
+        <div id="BCOLOR_VIEW" STYLE="width: 15px; height: 15px; border: 1px solid black;"></div>
+       </td>
+       <td align="right" valign="middle">        
+        Hex:
+       </td>
+       <td align="left" valign="middle">        
+        <INPUT NAME="BCOLOR" TYPE="text" VALUE="" SIZE="9" MAXLENGTH="7" CLASS="text">
+       </TD>
+       <td width="20">&nbsp;</td>       
+       <td align="left" valign="middle">        
+        <? echo $lang["Text"]; ?>:
+       </td>
+       <td align="left" valign="middle">        
+        <SELECT NAME="TXTCOLOR_SEL" SIZE="1" CLASS="text" onchange="change_color(this.value,'TXTCOLOR');">
+         <? echo $COPTIONS; ?>
+        </SELECT>
+       </td>
+       <td align="left" valign="middle">        
+        <div id="TXTCOLOR_VIEW" STYLE="width: 15px; height: 15px; border: 1px solid black;"></div>
+       </td>
+       <td align="right" valign="middle">        
+        Hex:
+       </td>
+       <td align="left" valign="middle">        
+        <INPUT NAME="TXTCOLOR" TYPE="text" VALUE="" SIZE="9" MAXLENGTH="7" CLASS="text">
+       </TD>
+      </TR>
+      <TR>
+       <TD ALIGN="CENTER" VALIGN="MIDDLE" colspan="6">&nbsp;</TD>
+       <td align="left" valign="middle">
+        <? echo $lang["Links"]; ?>: 
+       </td>
+       <td align="left" valign="middle">        
+        <SELECT NAME="LCOLOR_SEL" SIZE="1" CLASS="text" onchange="change_color(this.value,'LCOLOR');">
+         <? echo $COPTIONS; ?> 
+        </SELECT>
+       </td>
+       <td align="left" valign="middle">        
+        <div id="LCOLOR_VIEW" STYLE="width: 15px; height: 15px; border: 1px solid black;"></div>
+       </td>
+       <td align="right" valign="middle">        
+        Hex:
+       </td>
+       <td align="left" valign="middle">        
+        <INPUT NAME="LCOLOR" TYPE="text" VALUE="" SIZE="9" MAXLENGTH="7" CLASS="text">
+       </TD>
+      </TR>
+     </table>
+    </td>
+   </tr>
+  </TABLE>
+
+
+

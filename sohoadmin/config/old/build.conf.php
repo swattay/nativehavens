@@ -1,0 +1,1 @@
+a:4:{s:13:"download_lite";s:64:"http://update.securexfer.net/public_builds/pro-v493_r31-lite.tgz";s:13:"download_full";s:64:"http://update.securexfer.net/public_builds/pro-v493_r31-full.tgz";s:10:"build_name";s:10:"v4.9.3 r31";s:10:"build_time";i:1256313355;}

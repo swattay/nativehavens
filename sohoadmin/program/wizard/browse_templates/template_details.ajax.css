@@ -1,0 +1,39 @@
+<?php
+#=========================================================================================================
+# Called via ajaxDo() in browse_templates.php
+# Gets info on templates matching passed qry arguments and returns as clickable thumbnails
+# Ouput of this script is placed in #template_results box in browse_templates.php
+#=========================================================================================================
+
+# ACCEPTS: $_GET['type'] = plugins/templates, $_GET['limit'] = num to pull,
+#          $_GET['sortby'] = updated/downloaded, $_GET['paidonly'] = yes/no
+$apistring = "type=templates&limit=16&sortby=updated";
+$apiurl = "http://addons.soholaunch.com/api/top_addons.api.php?".$apistring;
+$apireturn = file_get_contents($apiurl);
+$topaddons = unserialize($apireturn);
+?>
+
+<?php
+
+for ( $a = 0; $a < count($topaddons); $a++ ) {
+
+   # Keep template name as consise as possible to avoid breaking display with awkwardly floated divs
+   $template_name = $topaddons[$a]['name'];
+   if ( strlen($template_name) > 25 ) {
+      # Try stripping often-meaningless prefix
+      $template_name = eregi_replace("[a-zA-Z0-9]+ - ", "", $template_name);
+   }
+
+   # Just for sake of familiarity
+   $addon_id = $topaddons[$a]['addonid'];
+
+   $linkhref = "https://addons.soholaunch.com/View_Addon.php?addonid=".$topaddons[$a]['addonid'];
+   $mouseover = "onmouseover=\"setClass(this.id, 'template_container-on');\" onmouseout=\"setClass(this.id, 'template_container-off');\"";
+
+   echo "       <div id=\"cell-".$a."\" ".$mouseover." class=\"template_container-off\" onclick=\"view_template_details('".$addon_id."');\">\n";
+   echo "        <img src=\"".$topaddons[$a]['thumbnail_url']."\" width=\"113\" height=\"77\" border=\"0\">\n";
+   echo "        <p class=\"thumbnail_caption\"><b>".$template_name."</b><br/>\n";
+   echo "        Updated: ".date("M d, Y", $topaddons[$a]['updated'])."</p>\n";
+   echo "       </div>\n";
+}
+?>

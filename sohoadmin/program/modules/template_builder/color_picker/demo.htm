@@ -1,0 +1,39 @@
+
+        <div id="pickerPanel" class="dragPanel">
+            <h4 id="pickerHandle">&nbsp;</h4>
+            <div id="pickerDiv">
+              <img id="pickerbg" src="color_picker/img/pickerbg.png" alt="">
+              <div id="selector"><img src="color_picker/img/select.gif"></div>
+            </div>
+
+             <div id="hueBg">
+              <div id="hueThumb"><img src="color_picker/img/hline.png"></div>
+            </div>
+
+            <div id="pickervaldiv">
+                <form name="pickerform" onsubmit="return pickerUpdate()">
+                	<input name="pickerrval" id="pickerrval" type="hidden" value="0" size="3" maxlength="3" />
+                	<input name="pickerhval" id="pickerhval" type="hidden" value="0" size="3" maxlength="3" />
+                	<input name="pickergval" id="pickergval" type="hidden" value="0" size="3" maxlength="3" />
+                	<input name="pickergsal" id="pickersval" type="hidden" value="0" size="3" maxlength="3" />
+                	<input name="pickerbval" id="pickerbval" type="hidden" value="0" size="3" maxlength="3" />
+                	<input name="pickervval" id="pickervval" type="hidden" value="0" size="3" maxlength="3" />
+                	<input name="pickerhexval" id="pickerhexval" type="hidden" value="0" size="6" maxlength="6" />
+                <br />
+
+                </form>
+            </div>
+            <div id="BGcolorArea">This Area</div>
+            <div id="closer" onClick="toggleid('picker');giveBorder('none')"><img src="images/process-stop.png" style="cursor: pointer;"></div>
+
+            
+        </div>
+
+
+
+
+<form>
+	<input type="hidden" id="colorfield1" onFocus="ddcolorposter.echocolor(this, 'colorbox1')">
+	<input type="hidden" id="colorfield2" onFocus="ddcolorposter.echocolor(this, 'colorbox2')">
+</form>
+

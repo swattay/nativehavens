@@ -1,0 +1,389 @@
+/*##########################################################################################################
+============================================================================================================
+Client-Side Display Elements
+------------------------------------------------------------------------------------------------------------
+>> This is the default stylesheet for all
+>> visitor-facing elements on the website
+>> itself (i.e. checkout system).
+============================================================================================================
+##########################################################################################################*/
+
+
+/*################################################################################################
+--------------------------------------------------------------------------------------------------
+>> General
+--------------------------------------------------------------------------------------------------
+################################################################################################*/
+
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+.contentarea {
+	font-family : Arial;
+	font-size: 9pt;
+	padding: 10px;
+}
+
+.sohotext {
+	font-family : Arial;
+	font-size: 9pt;
+}
+
+.SMtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+.pound_vmenu {
+padding: 2px 2px 2px 2px;
+border: 0px solid #5C0000;
+border-style: solid none solid none;
+border-right: 0px solid #5C0000;
+}
+
+.smtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+.uptext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: darkgreen;
+}
+
+.FormLt1 {
+	font-family : Arial;
+	font-size : 8pt;
+	cursor: hand;
+}
+
+a:link {color: #FF0000; text-decoration:none; }
+a:visited {color: #FF0000; text-decoration:none; }
+a:hover {color: #EB8B8B; text-decoration:none; }
+a:active {color: #EB8B8B; text-decoration:none; }
+
+/*################################################################################################
+--------------------------------------------------------------------------------------------------
+>> Menu System - #VMENU#
+--------------------------------------------------------------------------------------------------
+################################################################################################*/
+
+/*================================================================================
+>> General
+================================================================================*/
+
+/* This is the main vmenu table */
+table.vmenu_mainz {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* This cell contains the submenu table */
+td.vmenu_main_sub {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+}
+
+/* Contains all sub links. */
+/* Placed within a single td (vmenu_main_sub) of the main link table (vmenu_mainz) */
+table.vmenu_subz {
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 11px;
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+}
+
+/*================================================================================
+>> Main Menu Links
+================================================================================*/
+
+td.vmenu_main_off {   width: 100%;
+   border: 0px;
+   padding: 8px 5px 0px 10px;
+}
+
+td.vmenu_main_on {
+   width: 100%;
+   border: 0px;
+   padding: 8px 5px 0px 10px;
+}
+
+div.vmenu_main_off {
+   width: 100%;
+   font-size: 13px;
+   font-weight: normal;
+}
+
+div.vmenu_main_on {
+   width: 100%;
+   font-size: 13px;
+   font-weight: bold;
+}
+
+
+a.vmenu_main_off:link {text-decoration: none; font-weight: normal; color: #FF0000;}
+a.vmenu_main_off:visited {text-decoration: none; font-weight: normal; color: #FF0000;}
+a.vmenu_main_off:hover {text-decoration: none; font-weight: bold; color: #EB8B8B;}
+a.vmenu_main_off:active {text-decoration: none; font-weight: bold; color: #EB8B8B;}
+
+a.vmenu_main_on:link {text-decoration: none; font-weight: normal; color: #FF0000;}
+a.vmenu_main_on:visited {text-decoration: none; font-weight: normal; color: #FF0000;}
+a.vmenu_main_on:hover {text-decoration: none; font-weight: bold; color: #EB8B8B;}
+a.vmenu_main_on:active {text-decoration: none; font-weight: bold; color: #EB8B8B;}
+
+
+
+
+/*================================================================================
+/* Sub Menu Bullets
+================================================================================*/
+
+/* Sub menu bullets */
+td.vmenu_sub_bull_off {
+   width: 20px;
+   padding: 3px 0px 0px 15px;
+}
+
+td.vmenu_sub_bull_on {
+   width: 20px;
+   padding: 3px 0px 0px 15px;
+}
+
+div.vmenu_sub_bull_off {
+   font-size: 11px;
+   color: #858585;
+   font-weight: bold;
+}
+
+div.vmenu_sub_bull_on {
+   font-size: 11px;
+   color: #505050;
+   font-weight: bold;
+}
+
+/*================================================================================
+/* Sub Menu Links
+================================================================================*/
+td.vmenu_sub_off {
+   width: 100%;
+   border: 0px;
+   padding: 3px 2px 0px 1px;
+}
+
+td.vmenu_sub_on {
+   width: 100%;
+   border: 0px;
+   padding: 3px 2px 0px 1px;
+}
+
+div.vmenu_sub_off {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+   font-size: 12px;
+   font-weight: normal;
+}
+
+div.vmenu_sub_on {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+   font-size: 12px;
+   font-weight: bold;
+}
+
+a.vmenu_sub_off:link {text-decoration: none; font-weight: normal; color: #FF0000;}
+a.vmenu_sub_off:visited {text-decoration: none; font-weight: normal; color: #FF0000;}
+a.vmenu_sub_off:hover {text-decoration: none; font-weight: bold; color: #EB8B8B;}
+a.vmenu_sub_off:active {text-decoration: none; font-weight: bold; color: #EB8B8B;}
+
+a.vmenu_sub_on:link {text-decoration: none; font-weight: normal; color: #FF0000;}
+a.vmenu_sub_on:visited {text-decoration: none; font-weight: normal; color: #FF0000;}
+a.vmenu_sub_on:hover {text-decoration: none; font-weight: bold; color: #EB8B8B;}
+a.vmenu_sub_on:active {text-decoration: none; font-weight: bold; color: #EB8B8B;}
+
+
+/*################################################################################################
+--------------------------------------------------------------------------------------------------
+>> Menu System - #HMAINS#
+--------------------------------------------------------------------------------------------------
+################################################################################################*/
+
+/*================================================================================
+>> General
+================================================================================*/
+
+/* This is the main hsub table */
+table.hmains {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This cell contains a submenu link */
+td.hmains {
+	background-repeat: no-repeat;
+   border: 0px;
+   padding: 2px 10px 2px 10px;
+   font-weight : normal;
+   font-size: 12px;
+   
+}
+
+a.hmains:link { color: #FF0000; text-decoration: none !important; }
+a.hmains:visited { color: #FF0000; text-decoration: none !important; }
+a.hmains:hover { color: #EB8B8B; text-decoration: none !important; }
+a.hmains:active { color: #EB8B8B; text-decoration: none !important; }
+
+
+
+
+
+/*################################################################################################
+--------------------------------------------------------------------------------------------------
+>> Menu System - #HSUBS#
+--------------------------------------------------------------------------------------------------
+################################################################################################*/
+
+/*================================================================================
+>> General
+================================================================================*/
+
+/* This is the main hsub table */
+table.hsubs {
+   width: 65%;
+   border: 1px solid #CCCCCC;
+   border-style: none solid solid solid;
+   padding: 0px 0px 0px 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This cell contains a submenu link */
+td.hsubs {
+   border: 0px;
+   font-size : 12px;
+   padding: 2px 10px 2px 10px;
+   font-weight : bold;
+}
+
+a.hsubs:link { color: #FF0000; text-decoration: none; }
+a.hsubs:visited { color: #FF0000; text-decoration: none; }
+a.hsubs:hover { color: #EB8B8B; text-decoration: none; }
+a.hsubs:active { color: #EB8B8B; text-decoration: none; }
+
+
+/*################################################################################################
+--------------------------------------------------------------------------------------------------
+>> Old Styles (to be phased out after obsolecense is assured)
+--------------------------------------------------------------------------------------------------
+################################################################################################*/
+textarea {
+	font-size:8pt;
+	height:75px;
+	width:175px;
+}
+
+.logohead {
+	vertical-align: top;
+	font-family : Arial;
+	font-size : 20pt;
+	font-weight : bold;
+	color: #FFFFFF;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+
+.logosub {
+	font-family : Arial;
+	font-size : 12pt;
+	font-style : italic;
+	color: #666666;
+	padding-left: 15px;
+}
+
+
+
+.border {
+	font-family: Arial;
+	font-size: 8pt;
+	border: 1px #000000 inset;
+}
+
+
+
+.menusys {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+
+/* --------------------------------------------START BOXES--------------------------------------------- */
+/* START #BOX1# */
+.box1 {
+	padding: 10px;
+	vertical-align:top;
+	margin-bottom: 10px;
+}
+.boxContent1 {
+	border-bottom: 1px solid #727272;
+	border-left: 1px solid #727272;
+	border-right: 1px solid #727272;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	margin-top: 5px;
+}
+.boxTitle1 {
+	border-top: 1px solid #727272;
+	border-left: 1px solid #727272;
+	border-right: 1px solid #727272;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FF0000;
+	margin-bottom: 0px;
+}
+.boxDateTitle1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+}
+.boxDate1 {
+	border-top: 1px solid #727272;
+	border-left: 1px solid #727272;
+	border-right: 1px solid #727272;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+}
+.boxReadMore1 {
+	border-bottom: 1px solid #727272;
+	border-left: 1px solid #727272;
+	border-right: 1px solid #727272;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+}
+.boxSpacer1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#000000;
+}
+/* END #BOX1# */
+
+/* --------------------------------------------END BOXES--------------------------------------------- */
+
+
+.copyright {
+	color: #999999;
+	font-size: 10px;
+	text-align: center;
+}
